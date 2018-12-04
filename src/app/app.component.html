@@ -1,7 +1,13 @@
-<h1>{{title}}</h1>
-<nav>
+<app-header></app-header>
+<br><br><br>
+<h1 align="center">{{title}}</h1>
+<nav align="center">
   <a routerLink="/dashboard">Dashboard</a>
   <a routerLink="/heroes">Heroes</a>
 </nav>
-<router-outlet></router-outlet>
-<app-messages></app-messages>
+<div align="center">
+  <router-outlet></router-outlet>
+</div>
+<app-messages align="center"></app-messages>
+
+<app-footer></app-footer>
