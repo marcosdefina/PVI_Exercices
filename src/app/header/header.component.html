@@ -3,12 +3,23 @@
     <li class="nav-item active">
       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/exercices/">Exercices
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Exercices
       </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">HTML</a>
+        <a class="dropdown-item" href="#">CGI-BIN</a>
+        <a class="dropdown-item" href="#">PHP</a>
+        <a class="dropdown-item" href="#">SQLite</a>
+        <a class="dropdown-item" href="#">ProcessingJS</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Platform</a>
+      </div>
     </li>
     <li class="nav-item">
-      <a routerLink="/heroes">Heroes</a> 
+      <a routerLink="/heroes">Heroes</a>
     </li>
     <li class="nav-item">
       <a routerLink="/dashboard">Dashboard</a>
