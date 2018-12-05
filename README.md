@@ -8,7 +8,6 @@ A ideia nesse projeto é desenvolver uma plataforma, composta por um front-end e
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
   <meta name="author" content="Lista de Exercícios" />
-  <style type="text/css">code{white-space: pre;}</style>
 </head>
 <body>
 <div id="header">
