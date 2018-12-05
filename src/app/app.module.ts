@@ -18,6 +18,13 @@ import { FooterComponent }      from './footer/footer.component'
 import { HeaderComponent }      from './header/header.component';
 import { ExercicesComponent }   from './exercices/exercices.component';
 import { Template1 }   from './exercices/HTML/Ex1/Template1.component';
+import { HTMLComponent }   from './exercices/HTML/html.component';
+import { CGIBINComponent } from './exercices/CGIBin/cgibin.component';
+import { Ex3Component } from './exercices/HTML/Ex3/ex3.component';
+import { Ex2Component } from './exercices/HTML/Ex2/ex2.component';
+import { PhpComponent } from './exercices/PHP/php.component';
+import { ProcessingComponent } from './exercices/Processing/processing.component';
+import { SqliteComponent } from './exercices/SQLite/sqlite.component';
 
 @NgModule({
   imports: [
@@ -43,7 +50,14 @@ import { Template1 }   from './exercices/HTML/Ex1/Template1.component';
     HeaderComponent,
     HeroSearchComponent,
     ExercicesComponent,
-    Template1
+    Template1,
+    HTMLComponent,
+    CGIBINComponent,
+    Ex3Component,
+    Ex2Component,
+    PhpComponent,
+    ProcessingComponent,
+    SqliteComponent
   ],
   bootstrap: [ AppComponent ]
 })
