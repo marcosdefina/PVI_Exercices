@@ -5,17 +5,25 @@
     </li>
 
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Exercices
-      </a>
+      <div class="btn-group">
+        <a type="button" routerLink="/exercices" class="btn nav-link">Exercices</a>
+        <a type="button" href="#" class="btn nav-link dropdown-toggle dropdown-toggle-split" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#">HTML</a>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          HTML
+        </a>
+        <div class="dropleft" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" routerLink="/exercices/html/ex1">ex1</a>
+          <a class="dropdown-item" routerLink="/exercices/html/ex2">ex2</a>
+          <a class="dropdown-item" routerLink="/exercices/html/ex3  ">ex3</a>
+        </div>
         <a class="dropdown-item" href="#">CGI-BIN</a>
         <a class="dropdown-item" href="#">PHP</a>
         <a class="dropdown-item" href="#">SQLite</a>
         <a class="dropdown-item" href="#">ProcessingJS</a>
         <div class="dropdown-divider"></div>
         <a class="dropdown-item" href="#">Platform</a>
+      </div>
       </div>
     </li>
     <li class="nav-item">
