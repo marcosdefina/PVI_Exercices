@@ -1,5 +1,5 @@
 # Progamação Voltada à Internet - Projeto Final
-A ideia nesse projeto é desenvolver uma plataforma, composta por um front-end em Angular e um WebService em Spring, para comportar os exercícios requeridos pelo Professor Dr. Odemir Martinez Bruno, na matéria 7600068.2018.2.01 no Instituto de Física de São Carlos.
+A ideia nesse projeto é desenvolver uma plataforma, composta por um front-end em Angular e um WebService em Spring, para comportar os exercícios requeridos pelo Professor Odemir Martinez Bruno, na matéria 7600068.2018.2.01 no Instituto de Física de São Carlos.
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -8,12 +8,10 @@ A ideia nesse projeto é desenvolver uma plataforma, composta por um front-end e
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
   <meta name="author" content="Lista de Exercícios" />
-  <title>Programação Voltada a Internet 2018</title>
   <style type="text/css">code{white-space: pre;}</style>
 </head>
 <body>
 <div id="header">
-<h1 class="title">Programação Voltada a Internet 2018</h1>
 <h2 class="author">Lista de Exercícios</h2>
 </div>
 <h1 id="html">HTML</h1>
