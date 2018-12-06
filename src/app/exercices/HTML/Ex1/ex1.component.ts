@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { AngularWaitBarrier } from 'blocking-proxy/built/lib/angular_wait_barrier';
+import { getBootstrapListener } from '@angular/router/src/router_module';
 
 @Component({
   selector: 'app-ex1',
@@ -7,11 +10,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Ex1Component implements OnInit {
 
-  constructor() { }
+  constructor(
+    private route: ActivatedRoute,
+  ) { }
 
   pageslist: []
 
   ngOnInit() {
+    var id = this.routeId();
+  }
+
+  routeId(){
+    const id = +this.route.snapshot.paramMap.get('id');
+    return id
+  }
+
+  generatePage(id){
+
   }
 
   getPages(){

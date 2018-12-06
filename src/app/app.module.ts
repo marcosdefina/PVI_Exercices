@@ -25,6 +25,12 @@ import { PhpComponent } from './exercices/PHP/php.component';
 import { ProcessingComponent } from './exercices/Processing/processing.component';
 import { SqliteComponent } from './exercices/SQLite/sqlite.component';
 import { Ex1Component } from './exercices/HTML/Ex1/ex1.component';
+import { _1Component } from './exercices/HTML/Ex1/PagesComponents/_1.component';
+import { _2Component } from './exercices/HTML/Ex1/PagesComponents/_2.component';
+import { _3Component } from './exercices/HTML/Ex1/PagesComponents/_3.component';
+import { _4Component } from './exercices/HTML/Ex1/PagesComponents/_4.component';
+import { _5Component } from './exercices/HTML/Ex1/PagesComponents/_5.component';
+import { _6Component } from './exercices/HTML/Ex1/PagesComponents/_6.component';
 
 @NgModule({
   imports: [
@@ -57,7 +63,13 @@ import { Ex1Component } from './exercices/HTML/Ex1/ex1.component';
     PhpComponent,
     ProcessingComponent,
     SqliteComponent,
-    Ex1Component
+    Ex1Component,
+    _1Component,
+    _2Component,
+    _3Component,
+    _4Component,
+    _5Component,
+    _6Component,
   ],
   bootstrap: [ AppComponent ]
 })
