@@ -18,6 +18,9 @@ import { _3Component } from './exercices/HTML/Ex1/PagesComponents/_3.component';
 import { _4Component } from './exercices/HTML/Ex1/PagesComponents/_4.component';
 import { _5Component } from './exercices/HTML/Ex1/PagesComponents/_5.component';
 import { _6Component } from './exercices/HTML/Ex1/PagesComponents/_6.component';
+import { Ex3_table1Component } from './exercices/HTML/Ex3/tables/Ex3_table1.component';
+import { Ex3_table2Component } from './exercices/HTML/Ex3/tables/Ex3_table2.component';
+import { Ex3_table3Component } from './exercices/HTML/Ex3/tables/Ex3_table3.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -39,6 +42,9 @@ const routes: Routes = [
   { path: 'exercices/php', component: PhpComponent},
   { path: 'exercices/sqlite', component: SqliteComponent},
   { path: 'exercices/processing', component: ProcessingComponent},
+  { path: 'exercices/html/ex3/1', component: Ex3_table1Component},
+  { path: 'exercices/html/ex3/2', component: Ex3_table2Component},
+  { path: 'exercices/html/ex3/3', component: Ex3_table3Component},
 ];
 
 @NgModule({

@@ -31,6 +31,9 @@ import { _3Component } from './exercices/HTML/Ex1/PagesComponents/_3.component';
 import { _4Component } from './exercices/HTML/Ex1/PagesComponents/_4.component';
 import { _5Component } from './exercices/HTML/Ex1/PagesComponents/_5.component';
 import { _6Component } from './exercices/HTML/Ex1/PagesComponents/_6.component';
+import { Ex3_table1Component } from './exercices/HTML/Ex3/tables/Ex3_table1.component';
+import { Ex3_table2Component } from './exercices/HTML/Ex3/tables/Ex3_table2.component';
+import { Ex3_table3Component } from './exercices/HTML/Ex3/tables/Ex3_table3.component';
 
 @NgModule({
   imports: [
@@ -70,6 +73,9 @@ import { _6Component } from './exercices/HTML/Ex1/PagesComponents/_6.component';
     _4Component,
     _5Component,
     _6Component,
+    Ex3_table1Component,
+    Ex3_table2Component,
+    Ex3_table3Component
   ],
   bootstrap: [ AppComponent ]
 })

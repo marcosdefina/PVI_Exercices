@@ -10,10 +10,15 @@ import { Location} from '@angular/common';
 
 export class HTMLComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private location: Location
+  ) { }
 
   ngOnInit() {
 
+  }
+  goBack(): void {
+    this.location.back();
   }
 
 }
