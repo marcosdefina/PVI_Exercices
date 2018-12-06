@@ -75,7 +75,7 @@ import { Ex3_table3Component } from './exercices/HTML/Ex3/tables/Ex3_table3.comp
     _6Component,
     Ex3_table1Component,
     Ex3_table2Component,
-    Ex3_table3Component
+    Ex3_table3Component,
   ],
   bootstrap: [ AppComponent ]
 })
