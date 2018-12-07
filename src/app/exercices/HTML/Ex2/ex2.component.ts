@@ -16,10 +16,7 @@ export class Ex2Component implements OnInit {
 
   ngOnInit() {
     const id = +this.route.snapshot.paramMap.get('id');
-    if(id == 1)
-      window.location.href = 'file:///home/ubuntu/ProgInternet-Odemir-7600068-2018201-IFSC/src/app/exercices/HTML/Ex2/MarkUps-Rex/Rex/index.html'
-    else
-      window.location.href = 'file:///home/ubuntu/ProgInternet-Odemir-7600068-2018201-IFSC/src/app/exercices/HTML/Ex2/academic-education/index.html'
+    window.location.href = 'file:///home/ubuntu/ProgInternet-Odemir-7600068-2018201-IFSC/src/app/exercices/HTML/Ex2/MarkUps-Rex/Rex/index.html'
     }
 
 }

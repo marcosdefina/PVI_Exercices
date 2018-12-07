@@ -36,7 +36,7 @@ const routes: Routes = [
   { path: 'exercices/html/ex1/4', component: _4Component},
   { path: 'exercices/html/ex1/5', component: _5Component},
   { path: 'exercices/html/ex1/6', component: _6Component},
-  { path: 'exercices/html/ex2/:id', component: Ex2Component},
+  { path: 'exercices/html/ex2', component: Ex2Component},
   { path: 'exercices/html/ex3', component: Ex3Component},
   { path: 'exercices/cgibin', component: CGIBINComponent},
   { path: 'exercices/php', component: PhpComponent},
